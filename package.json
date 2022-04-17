@@ -1,0 +1,52 @@
+{
+  "name": "nuxt-headless-cms",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "function:build": "netlify-lambda build functions",
+    "function:serve": "netlify-lambda serve functions"
+  },
+  "dependencies": {
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.3",
+    "core-js": "^3.19.3",
+    "encoding": "^0.1.13",
+    "highlight.js": "^10.0.0",
+    "microcms-js-sdk": "^2.0.0",
+    "node-sass": "^6.0.1",
+    "nuxt": "^2.15.8",
+    "nuxt-jsonld": "^1.5.3",
+    "nuxt-lazy-load": "^1.2.9",
+    "nuxt-microcms-module": "^2.0.0",
+    "sass-loader": "^10.2.1",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/dayjs": "^1.1.9",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/google-analytics": "^2.2.0",
+    "@nuxtjs/gtm": "^2.4.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "netlify-lambda": "^2.0.15",
+    "prettier": "^2.0.5",
+    "vue-scrollto": "^2.17.1"
+  }
+}
